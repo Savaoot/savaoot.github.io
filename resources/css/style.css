@@ -521,4 +521,6 @@ footer p {
     opacity: 1;
 }
 
-
+.offer-container:hover{
+    cursor: pointer;
+}
