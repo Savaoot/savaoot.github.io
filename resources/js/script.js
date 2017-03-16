@@ -2,8 +2,8 @@ $(document).ready(function() {
     // $(this).css("display", "block");
     // $("body header nav div.row").slideDown(1000);
 
-    $(".js--row").css("display", "none");
-    $("body header nav div.row").fadeIn(1000, function(e) {
+    $("header nav div.row").css("display", "none");
+    $("header nav div.row").fadeIn(1000, function(e) {
         $(this).css("display", "block");
     });
 
