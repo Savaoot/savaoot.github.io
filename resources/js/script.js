@@ -1,28 +1,29 @@
-$(document).ready(function() {
+$(document).ready(function () {
     // $(this).css("display", "block");
     // $("body header nav div.row").slideDown(1000);
 
     $("header nav div.row").css("display", "none");
-    $("header nav div.row").fadeIn(1000, function(e) {
+    $("header nav div.row").fadeIn(1000, function (e) {
         $(this).css("display", "block");
     });
 
-    $('.js--section-who-we-are').waypoint(function(direction) {
+    $('.js--section-who-we-are').waypoint(function (direction) {
 
         if (direction == "down") {
             $('nav').addClass('sticky');
         }
         else {
             $('nav').removeClass('sticky');
+
         }
 
     }, {
-        offset: '600px'
+        offset: $(window).height() - $("header nav div.row").height()
     });
 
     /*----nav-scrolling--- */
-    $(function() {
-        $('a[href*="#"]:not([href="#"])').click(function() {
+    $(function () {
+        $('a[href*="#"]:not([href="#"])').click(function () {
             if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
                 var target = $(this.hash);
                 target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
@@ -37,20 +38,20 @@ $(document).ready(function() {
     });
 
     /*------------js for animations------------- */
-    $('.js--wp-1').waypoint(function(direction) {
+    $('.js--wp-1').waypoint(function (direction) {
         $('.js--wp-1').addClass(' animated fadeInLeft');
     }, {
         offset: '55%'
     });
 
-    $('.js--wp-2').waypoint(function(direction) {
+    $('.js--wp-2').waypoint(function (direction) {
         $('.js--wp-2').addClass(' animated fadeInUpBig');
     }, {
         offset: '55%'
     });
 
 
-    $('.js--wp-4').waypoint(function(direction) {
+    $('.js--wp-4').waypoint(function (direction) {
         $('.js--wp-4').addClass(' animated zoomIn');
     }, {
         offset: '55%'
