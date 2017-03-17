@@ -2,6 +2,10 @@ $(document).ready(function () {
     // $(this).css("display", "block");
     // $("body header nav div.row").slideDown(1000);
 
+    setTimeout(showScreenDiv, 0);
+    setTimeout(showLeftDiv, 4500);
+    setTimeout(showRightDiv, 4500);
+    
     $("header nav div.row").css("display", "none");
     $("header nav div.row").fadeIn(1000, function (e) {
         $(this).css("display", "block");
@@ -38,6 +42,7 @@ $(document).ready(function () {
     });
 
     /*------------js for animations------------- */
+    
     $('.js--wp-1').waypoint(function (direction) {
         $('.js--wp-1').addClass(' animated fadeInLeft');
     }, {
@@ -58,3 +63,38 @@ $(document).ready(function () {
     });
 
 });
+//header functions
+
+//id: lph-1, lph-2, lph-3, lph-4
+function showLeftDiv(){
+    setTimeout(function(){
+        $("#lph-1").css("display", "block");
+        $("#lph-1").addClass("animated bounceInDown");
+    }, 0);
+     setTimeout(function(){
+        $("#lph-2").css("display", "block");
+        $("#lph-2").addClass("animated bounceInDown");
+    }, 600);
+     setTimeout(function(){
+        $("#lph-3").css("display", "block");
+        $("#lph-3").addClass("animated bounceInDown");
+    }, 1200);
+     setTimeout(function(){
+        $("#lph-4").css("display", "block");
+        $("#lph-4").addClass("animated bounceInDown");
+    }, 1800);
+}
+
+function showRightDiv(){
+    setInterval(function(){
+        $("#right_part").css("display", "block");
+        $("#right_part").addClass("animated fadeInDown");
+    }, 2400);
+}
+
+//id: first_screen_p, second_screen_p
+function showScreenDiv(){
+    setTimeout(function(){
+        $("#first_screen_p").css("display", "block");
+    }, 500);
+}
