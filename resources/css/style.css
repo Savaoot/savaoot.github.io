@@ -664,6 +664,22 @@ footer p {
     opacity: 1;
 }
 
+.js--wp-5 {
+    opacity: 0;
+}
+
+.js--wp-5.animated {
+    opacity: 1;
+}
+
+.js--wp-6 {
+    opacity: 0;
+}
+
+.js--wp-6.animated {
+    opacity: 1;
+}
+
 .offer-container {
     margin-bottom: 30px;
 }
