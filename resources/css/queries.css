@@ -1,75 +1,88 @@
 /* size for large tablets to small computers: from 1024px to 1200px */
-@media only screen and (max-width: 1200px) {
-    
-    .row{ padding: 0 2%; }
-    
-}
 
+@media only screen and (max-width: 1200px) {
+    .row {
+        padding: 0 2%;
+    }
+}
 
 
 /* size for small tablets to large tablets: from 768px - 1023px */
+
 @media only screen and (max-width: 1023px) {
-    body { font-size: 18px; }
-    section { padding: 60px 0; }
-    
-    .long-copy{
-    line-height: 145%;
-    width: 80%;
-    word-spacing: 2px;
-    margin-left: 10%;
-    margin-right: 10%;
-    font-weight: 400;
-    padding-bottom: 15%;
-    background-color: #ebebeb;
-}
+    body {
+        font-size: 18px;
+    }
+    section {
+        padding: 60px 0;
+    }
+    .long-copy {
+        line-height: 145%;
+        width: 80%;
+        word-spacing: 2px;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-weight: 400;
+        padding-bottom: 15%;
+        background-color: #ebebeb;
+    }
     .plan-box {
         width: 100%;
         margin-left: 0;
     }
-    .plan-price { font-size: 250%; }
-    .contact-form { width: 80%; }
+    .plan-price {
+        font-size: 250%;
+    }
+    .contact-form {
+        width: 80%;
+    }
 }
 
 
-
 /* size for large phones or tablets: from 481px - 767px */
+
 @media only screen and (max-width: 767px) {
-    
-    body { font-size: 16px; }
-    section { padding: 30px 0; }
-    
-    .row { padding: 0 4%; }
-    
+    body {
+        font-size: 16px;
+    }
+    section {
+        padding: 30px 0;
+    }
+    .row {
+        padding: 0 4%;
+    }
     .col {
         width: 100%;
         margin: 0 0 4% 0;
     }
-    
     .long-copy {
         width: 100%;
         margin-left: 0;
     }
-    
-    h1 { font-size: 180%; }
-    
+    h1 {
+        font-size: 180%;
+    }
     .plan-box {
         margin-bottom: 2%;
     }
-    
     .image-box img {
-    width: 80%;
-    height: auto;
-    margin-bottom: 1%;
-    margin-left: 10%;
-}
-    
+        width: 80%;
+        height: auto;
+        margin-bottom: 1%;
+        margin-left: 10%;
+    }
 }
 
 
 /* size for small phones: from 0-480px */
+
 @media only screen and (max-width: 480px) {
-    section { padding: 25px 0 }
-    .contact-form { width: 100%; }
+    section {
+        padding: 25px 0
+    }
+    .contact-form {
+        width: 100%;
+    }
     .plan-box {
         margin-bottom: 1%;
     }
