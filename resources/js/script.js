@@ -16,9 +16,11 @@ $(document).ready(function () {
         if (direction == "down") {
             $('nav').addClass('sticky');
             $('#letMeToTheTop').css("display", "block");
+            $('#logo-a').css("display", "block");
         } else {
             $('nav').removeClass('sticky');
             $('#letMeToTheTop').css("display", "none");
+            $('#logo-a').css("display", "none");
         }
 
     }, {

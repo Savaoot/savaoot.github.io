@@ -246,6 +246,24 @@ section {
     color: #f78210;
 }
 
+#logo-a {
+    display: none;
+    position: absolute;
+    left: 3%;
+    top: 12px;
+    text-decoration: none;
+    color: #555;
+}
+
+#logo-a span {
+    color: #f78210;
+    font-weight: 400;
+}
+
+#logo-a .i-span {
+    font-size: 18px;
+}
+
 
 /*-------sticky-nav */
 
