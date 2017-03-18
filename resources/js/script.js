@@ -68,7 +68,7 @@ $(document).ready(function () {
     });
 
     $('.js--wp-5').waypoint(function (direction) {
-        $('.js--wp-2').addClass(' animated zoomIn');
+        $('.js--wp-5').addClass(' animated zoomIn');
     }, {
         offset: '55%'
     });
