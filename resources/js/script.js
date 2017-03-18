@@ -45,6 +45,8 @@ $(document).ready(function () {
 
     /*------------js for animations------------- */
 
+    //section effects, zoomIn
+
     $('.js--wp-1').waypoint(function (direction) {
         $('.js--wp-1').addClass(' animated zoomIn');
     }, {
@@ -81,9 +83,6 @@ $(document).ready(function () {
     }, {
         offset: '55%'
     });
-
-
-
 });
 //header functions
 
