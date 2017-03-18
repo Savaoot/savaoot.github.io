@@ -15,9 +15,10 @@ $(document).ready(function () {
 
         if (direction == "down") {
             $('nav').addClass('sticky');
+            $('#letMeToTheTop').css("display", "block");
         } else {
             $('nav').removeClass('sticky');
-
+            $('#letMeToTheTop').css("display", "none");
         }
 
     }, {

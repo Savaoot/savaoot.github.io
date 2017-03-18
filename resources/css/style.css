@@ -48,6 +48,35 @@ section {
 }
 
 
+/* to the top btn */
+
+#letMeToTheTop {
+    display: none;
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    background: #ebebeb;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    width: 40px;
+    height: 40px;
+    z-index: 100;
+    text-align: center;
+    vertical-align: middle;
+    box-shadow: 0 2px 2px #d9d6d6;
+}
+
+#letMeToTheTop i {
+    margin-top: 20%;
+    color: #555;
+    font-size: 20px;
+}
+
+#letMeToTheTop:hover i {
+    color: #f78210;
+}
+
+
 /*center header div*/
 
 .header-div-holder {
@@ -79,7 +108,7 @@ section {
 /*left header div*/
 
 .header-div-left {
-    width: 32%;
+    width: 29%;
     height: auto;
     z-index: 1;
     position: fixed;
@@ -117,6 +146,7 @@ section {
     border: none;
     padding: 15px;
     padding-left: 20px;
+    padding-right: 0;
     color: #555;
     text-align: left;
     font-weight: 300;
