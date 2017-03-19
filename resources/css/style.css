@@ -90,13 +90,11 @@ section {
     color: #fff;
     text-align: left;
     font-family: 'Comfortaa', cursive;
-    -webkit-font-smoothing: subpixel-antialiased;
 }
 
 .header-div-holder p {
     width: auto;
     display: none;
-    -webkit-font-smoothing: subpixel-antialiased;
 }
 
 .header-div-holder span {
@@ -376,7 +374,6 @@ h1:after {
 .icon-large {
     display: block;
     color: #f78210;
-    ;
     text-align: left;
     font-size: 400%;
     margin-bottom: 10%;
@@ -557,34 +554,45 @@ cite img {
 }
 
 
-/*---------------FORM--------------- */
+/*---------------CONTACT--------------- */
 
-.contact-form {
-    width: 60%;
-    margin: 0 auto;
-    padding-bottom: 5%;
+.section-form {
+    padding-bottom: 35px;
 }
 
-input[type=text],
-input[type=email],
-select,
-textarea {
-    width: 100%;
-    padding: 7px;
-    border-radius: 3px;
-    border: solid 1px #ccc;
+.contact-left-div {
+    float: left;
+    text-align: center;
+    width: 50%;
 }
 
-textarea {
-    height: 100px;
+.e-mail {
+    color: #f78210;
+    font-weight: bold;
+    letter-spacing: 2px;
 }
 
-input[type=checkbox] {
-    margin: 10px 5px 10px 0;
+.e-mail i {
+    color: #555;
 }
 
-*:focus {
-    outline: none;
+.phone-number {
+    font-weight: bold;
+    color: #f78210;
+}
+
+.contact-icons i {
+    margin-top: 5px;
+    margin-right: 8px;
+}
+
+.place-txt {
+    color: #f78210;
+    font-weight: bold;
+}
+
+.place-txt i {
+    color: #555;
 }
 
 
@@ -633,7 +641,7 @@ footer {
 
 .footer-nav li a:hover,
 .footer-nav li a:active {
-    color: #ddd;
+    color: #f78210;
 }
 
 .social-nav li a:link,
@@ -668,6 +676,10 @@ footer {
 
 .ion-social-linkedin:hover {
     color: #007bb5;
+}
+
+.fa-skype:hover {
+    color: #55acee;
 }
 
 footer p {
