@@ -9,7 +9,7 @@
 
 /* size for small tablets to large tablets: from 768px - 1023px */
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1024px) {
     body {
         font-size: 18px;
     }
@@ -36,6 +36,15 @@
     .contact-form {
         width: 80%;
     }
+    
+    #right_part {
+        display: none !important;
+    }
+    
+     .for-mobile-none {
+        display: none !important;
+    }
+    
 }
 
 
@@ -50,6 +59,10 @@
     }
     .row {
         padding: 0 4%;
+    }
+    .section-what-we-do .box {
+        display: block;
+        width: 100%;
     }
     .col {
         width: 100%;
@@ -74,7 +87,35 @@
     
     .mein-nav {
         display: none;
+    } 
+    
+    .mein-nav li {
+        display: block;
     }
+    
+    .mein-nav li a:link,
+    .mein-nav li a:visited {
+        display: block;
+    }
+     .mein-nav-for-mobile {
+         margin-top: 15%;
+        list-style: none;
+        text-align: center;
+         display: none;
+    }
+    
+    .mein-nav-for-mobile li a:link,
+    .mein-nav-for-mobile li a:visited {
+/*    margin-left: 80%;*/
+    padding-bottom: 5px;
+    display: block;
+    color: #555;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 80%;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
     
     .for-mobile-none {
         display: none !important;
@@ -83,8 +124,9 @@
     #right_part {
         display: none !important;
     }
-    .header-div-holder{
-        font-size: 36%;
+    .header-div-holder {
+        max-width: 90% !important; 
+        font-size: 14px;
     }
     
    .row-for-mobile {
@@ -99,7 +141,16 @@
     z-index: 110;
     transition: background-color 0.9s, box-shadow 0.9s, color 0.9s; 
 } 
-
+     #mapa {
+        display: none;
+    }
+    .section-form .row .contact-left-div {
+        width: 100%;
+    }
+    .social-nav {
+        float: none !important;
+        text-align: center;
+    }
 }
 
 
@@ -116,19 +167,51 @@
         margin-bottom: 1%;
     }
         
-    .mein-nav {
+   .mein-nav {
         display: none;
+    } 
+    .mein-nav li {
+        display: block;
     }
     
     .for-mobile-none {
         display: none !important;
     }
+    .mein-nav-for-mobile {
+        margin-top: 15%;
+        list-style: none;
+        text-align: center;
+        display: none;
+    }
+    
+    .mein-nav-for-mobile li a:link,
+    .mein-nav-for-mobile li a:visited {
+/*    margin-left: 80%;*/
+    padding-top: 5px;
+    display: block;
+    color: #555;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 80%;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.sticky .mein-nav li a:hover,
+.sticky .mein-nav li a:active {
+    /*border-bottom:  3px solid #fff; */
+    color: #f78210;
+}
     
     #right_part {
         display: none !important;
     }
-    .header-div-holder{
-        font-size: 36%;
+    #first_screen_p {
+        font-size: 12px;
+    }
+    
+    .header-div-holder {
+        max-width: 90% !important; 
     }
     
    .row-for-mobile {
@@ -143,4 +226,20 @@
     z-index: 110;
     transition: background-color 0.9s, box-shadow 0.9s, color 0.9s;
 }
+     .section-what-we-do .box {
+        display: block;
+        width: 100%;
+    }
+    
+    #mapa {
+        display: none;
+    }
+       .section-form .row .contact-left-div {
+        width: 100%;
+    }
+    
+    .social-nav {
+        float: none !important;
+        text-align: center;
+    }
 }
