@@ -119,3 +119,17 @@ function showScreenDiv() {
         $("#first_screen_p").css("display", "block");
     }, 500);
 }
+
+$(".js--nav-icon-mobile").click(function(){
+   var nav = $(".mein-nav-for-mobile");
+    nav.slideToggle(200);
+    
+});
+
+$(".mein-nav-for-mobile li a").click(function(){
+    $(".mein-nav-for-mobile").css("display", "none");
+});
+
+
+
+
