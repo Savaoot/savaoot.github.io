@@ -262,6 +262,30 @@ section {
     font-size: 18px;
 }
 
+/*--------mobile-nav------- */
+
+.row-for-mobile {display: none;}
+
+.mobile-nav-icon {
+    float: right;
+    margin-right: 1%;
+    cursor: pointer;
+}
+
+.mobile-nav-icon i {
+    font-size: 200%;
+    color: #555;
+}
+.logo-mobile {
+    position: absolute;
+    text-decoration: none;
+    color: #555;
+}
+
+.logo-mobile span {
+    color: #f78210;
+    font-weight: 400;
+}
 
 /*-------sticky-nav */
 
